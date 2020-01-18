@@ -5,3 +5,7 @@ boom.onclick = function triggerBoom() {
     console.log("you pressed the button BOOM");
     nuke.style.display = "block";
 }
+
+nuke.onclick = function endBoom() {
+    nuke.style.display = "none";
+}
